@@ -7,7 +7,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.firebaseappday.R;
+import firebaseappday.R;
+
 
 public class VH extends RecyclerView.ViewHolder {
     TextView tvName,tvPrice,tvCart;

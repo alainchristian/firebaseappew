@@ -94,7 +94,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="7dp"
                 android:layout_marginBottom="7dp"
-                android:id="@+id/Province"
+                android:id="@+id/usrProvince"
                 android:background="@drawable/rect_shape"
                 android:layout_height="wrap_content"/>
             <EditText
@@ -107,7 +107,7 @@
                 android:inputType="textPersonName"
                 android:layout_weight="1"
                 android:layout_marginBottom="7dp"
-                android:id="@+id/District"
+                android:id="@+id/usrDistrict"
                 android:background="@drawable/rect_shape"
                 android:layout_height="wrap_content"/>
 
