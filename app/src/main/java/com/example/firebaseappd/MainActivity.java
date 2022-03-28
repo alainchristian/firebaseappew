@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.firebaseappday.R;
+import com.example.firebaseappew.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import com.example.firebaseappday.R;
+import com.example.firebaseappew.R;
 
 public class Register extends AppCompatActivity {
     ImageButton btnClose;
