@@ -1,6 +1,4 @@
-package com.example.firebaseappew;
-
-import android.graphics.Bitmap;
+package com.example.firebaseappd;
 
 public class Product {
     String prodName;
