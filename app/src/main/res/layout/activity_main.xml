@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:text="This is a welcome page, if your company is a business, you can present items and let customers browse fro them.\n some functionalities will be available to signed user\n for example if the user click on add to cart, he she must be signed in.\a sign in for form should open.\if the user has an account he will sign in, otherwise he/she will be asked to sign in"
+         />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:background="#c9c9c9"
+        android:id="@+id/myRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
