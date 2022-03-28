@@ -1,10 +1,12 @@
-package com.example.firebaseappew;
+package com.example.firebaseappd;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
+import com.example.firebaseappday.R;
 
 import java.util.ArrayList;
 import java.util.List;

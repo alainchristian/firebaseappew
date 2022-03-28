@@ -1,14 +1,13 @@
-package com.example.firebaseappew;
+package com.example.firebaseappd;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.firebaseappday.R;
 
 public class Login extends AppCompatActivity {
     TextView noAccountTV;

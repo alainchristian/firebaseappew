@@ -1,4 +1,4 @@
-package com.example.firebaseappew;
+package com.example.firebaseappday;
 
 import org.junit.Test;
 

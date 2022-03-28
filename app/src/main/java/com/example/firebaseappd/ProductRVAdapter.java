@@ -1,4 +1,4 @@
-package com.example.firebaseappew;
+package com.example.firebaseappd;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.firebaseappday.R;
 
 import java.util.List;
 

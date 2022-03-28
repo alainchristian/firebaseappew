@@ -1,4 +1,4 @@
-package com.example.firebaseappew;
+package com.example.firebaseappday;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.firebaseappew", appContext.getPackageName());
+        assertEquals("com.example.firebaseappday", appContext.getPackageName());
     }
 }
