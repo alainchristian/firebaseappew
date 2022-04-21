@@ -34,6 +34,18 @@ public class User {
         this.usrCPassword = usrCPassword;
     }
 
+    public User(String usrImage, String usrFirstName, String usrLastName, String usrPhone, String usrCountry, String usrProvince, String usrDistrict, String usrFullAddress, String usrEmail) {
+        this.usrImage = usrImage;
+        this.usrFirstName = usrFirstName;
+        this.usrLastName = usrLastName;
+        this.usrPhone = usrPhone;
+        this.usrCountry = usrCountry;
+        this.usrProvince = usrProvince;
+        this.usrDistrict = usrDistrict;
+        this.usrFullAddress = usrFullAddress;
+        this.usrEmail = usrEmail;
+    }
+
     public String getUsrProvince() {
         return usrProvince;
     }
