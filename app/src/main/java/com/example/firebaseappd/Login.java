@@ -61,7 +61,6 @@ public class Login extends AppCompatActivity {
     }
 
     private void loginUser() {
-        progressDialog.show();
         String email=emailEt.getText().toString();
         String pass=passwordEt.getText().toString();
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
@@ -74,6 +73,7 @@ public class Login extends AppCompatActivity {
             passwordEt.requestFocus();
             return;
         }
+        progressDialog.show();
         mAuth.signInWithEmailAndPassword(email,pass)
                 .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
